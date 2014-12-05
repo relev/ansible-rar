@@ -1,0 +1,4 @@
+---
+- name: Unrar | Download and install rar distro
+  shell: mkdir -p /tmp/unrar && cd /tmp/unrar && wget http://www.rarlab.com/rar/rarlinux-x64-5.2.0.tar.gz && tar -xf rarlinux-x64-5.2.0.tar.gz && cd rar && make install
+
